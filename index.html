@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스파르톤 버킷 리스트</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/konva@9.3.6/konva.min.js"></script>
+  <script src="https://unpkg.com/gifler@0.1.0/gifler.min.js"></script>
+</head>
+<body>
+  <header>
+    <p class="title">SPARTHON Bucket List</p>
+    <p class="subtitle">꿈은 꾸는 것이 아닌, 이루는 것이다.</p>
+  </header>
+
+  <!-- Todo 추가 -->
+  <section id="todo_add">
+    <input type="text" placeholder="내용을 입력하세요" id="todoItem">
+    <button class="plus" onclick="saveText()"></button>
+  </section>
+
+  <!-- Todo 리스트 -->
+  <section id="todo_list">
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

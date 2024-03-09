@@ -1,0 +1,80 @@
+body {
+  background-image: url("./assets/design_assets/벚꽃배경1.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+div {
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  color: red;
+  font-size: 3vh;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 2vh;
+  color: #f0f0f0;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+
+#todo_add {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#todo_add > input {
+  width: 15vw;
+  height: 3vh;
+  display: block;
+  border-radius: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#todo_add > button {
+  width: 3vw;
+  height:4vh;
+  background-image: url("./assets/design_assets/Bucket_Plus.png");
+  background-position: center;
+  border-radius: 5px;
+}
+
+#todo_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#todo_list > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-image: url("./assets/design_assets/Bucket02.png");
+  color: red;
+}
+
